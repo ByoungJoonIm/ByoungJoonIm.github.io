@@ -1,1 +1,3 @@
-# ByoungJoonIm.io
+# my personal blog
+
+
