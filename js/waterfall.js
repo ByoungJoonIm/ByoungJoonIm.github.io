@@ -1,17 +1,11 @@
 /* jshint asi:true */
-//先等图片都加载完成
-//再执行布局函数
 
 /**
- * 执行主函数
  * @param  {[type]} function( [description]
  * @return {[type]}           [description]
  */
 (function() {
 
-  /**
-     * 内容JSON
-     */
   var demoContent = [
     {
       demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
@@ -135,12 +129,11 @@
     }
   ];
 
-  contentInit(demoContent) //内容初始化
-  waitImgsLoad() //等待图片加载，并执行布局初始化
+  contentInit(demoContent)
+  waitImgsLoad() 
 }());
 
 /**
- * 内容初始化
  * @return {[type]} [description]
  */
 function contentInit(content) {
@@ -169,7 +162,6 @@ function contentInit(content) {
 }
 
 /**
- * 等待图片加载
  * @return {[type]} [description]
  */
 function waitImgsLoad() {
@@ -200,7 +192,6 @@ function waitImgsLoad() {
 }
 
 /**
- * 初始化栅格布局
  * @return {[type]} [description]
  */
 function initGrid() {
