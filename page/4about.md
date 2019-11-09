@@ -15,8 +15,8 @@ type: page
 
 ## Contacts
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
+* GitHub：[ByoungJoonIm](https://github.com/ByoungJoonIm)
+* email：bj.max.lim@gmail.com
 
 ## Comments
 
