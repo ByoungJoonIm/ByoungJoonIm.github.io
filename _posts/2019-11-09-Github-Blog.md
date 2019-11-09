@@ -11,16 +11,16 @@ tags: GitHub-Blog Jekyll
 ## 1. 레포지토리 만들기
 레포지토리의 이름은 기본적으로 다음 형식을 따른다.
 - `[깃허브 계정명].github.io`
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-001.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-001.jpg)
 
 ## 2. Theme 고르고 업로드 하기
 Jekyll은 많은 사람들이 미리 레이아웃을 만들어 놓았고, 우리는 고르기만 하면 된다. [여기](https://github.com/topics/jekyll-theme)에서 theme을 고르자. 예를 들어서 mmistakes/minimal-mistakes을 고른 경우 다음 링크를 클릭하면 해당 사이트를 직접 볼 수 있다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-002.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-002.jpg)
 
 Theme을 골랐다면, 해당 프로젝트를 Zip으로 다운받는다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-003.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-003.jpg)
 해당 프로젝트의 압축을 풀어 아까 만든 레포지토리에 업로드한다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-004.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-004.jpg)
 
 ## 3. _config.yml 파일 수정하기
 jekylld이 편한 이유는 우리가 코드를 크게 수정하지 않아도 _config.yml 파일만 수정하면 사이트에 바로 적용할 수 있다는 점이다. 대부분의 코드는 _config.yml의 내용을 참조한다. _config.yml에는 다음과 같은 내용이 들어가야 한다.
@@ -37,16 +37,16 @@ baseurl                  : ""
 ## 그 외 팁
 ### 프로젝트를 수정할 때
 프로젝트를 수정할 때 주의할 점은, 만약 파일을 잘못 삭제하거나 수정해서 빌드가 실패하게 되면 github는 마지막으로 빌드한 사이트를 제공한다. 이러한 빌드 실패는 2가지 방법으로 확인할 수 있다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-005.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-005.jpg)
 commits에서 확인하는 경우, 다음과 같이 에러 메시지도 함께 확인이 가능하다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-006.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-006.jpg)
 
 ### 수정한 뒤 페이지가 반영이 안될 때
 보통 이런 경우는 다음의 경우 발생한다.
 - 배포가 아직 안된 경우 : 약간의 시간을 기다린다.(즉시 반영될정도로 github에서 제공하는 서버 성능이 빠르지는 않다.)
 - 배포가 실패한 경우 : 위의 `프로젝트를 수정할 때`를 참고하여 해결한다.
 - 캐시에 저장된 내용이 보이는 경우 : 크롬 기준으로 `F12`를 눌러 개발자 도구를 연 뒤, 새로고침을 마우스 우클릭하고 `캐쉬 비우기 및 강력 새로고침`을 누른다.
-![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-007.jpg)</br>
+![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-007.jpg)
 
 ## Reference 및 기능 추가를 위해 참조하면 좋은 사이트
 - [쉽고 빠르게 수준 급의 GitHub 블로그 만들기 - jekyll remote theme으로](https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html)
