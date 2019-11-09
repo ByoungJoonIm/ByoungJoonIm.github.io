@@ -11,6 +11,7 @@ tags: GitHub-Blog Jekyll
 ## 1. 레포지토리 만들기
 레포지토리의 이름은 기본적으로 다음 형식을 따른다.
 - `[깃허브 계정명].github.io`
+
 ![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-001.jpg)
 
 ## 2. Theme 고르고 업로드 하기
