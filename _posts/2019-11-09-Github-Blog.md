@@ -14,6 +14,8 @@ tags: GitHub-Blog Jekyll
 
 ![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-001.jpg)
 
+![](http://ww3.sinaimg.cn/large/7011d6cfjw1f2ue3lt31nj20cj02nt8u.jpg)
+
 ## 2. Theme 고르고 업로드 하기
 Jekyll은 많은 사람들이 미리 레이아웃을 만들어 놓았고, 우리는 고르기만 하면 된다. [여기](https://github.com/topics/jekyll-theme)에서 theme을 고르자. 예를 들어서 mmistakes/minimal-mistakes을 고른 경우 다음 링크를 클릭하면 해당 사이트를 직접 볼 수 있다.
 ![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-002.jpg)
