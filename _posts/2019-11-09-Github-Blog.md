@@ -27,7 +27,7 @@ Theme을 골랐다면, 해당 프로젝트를 Zip으로 다운받는다.
 ![](https://github.com/ByoungJoonIm/ByoungJoonIm.github.io/blob/master/captures/2019-11-09-Github-Blog-004.jpg?raw=true)
 
 ## 3. _config.yml 파일 수정하기
-jekylld이 편한 이유는 우리가 코드를 크게 수정하지 않아도 _config.yml 파일만 수정하면 사이트에 바로 적용할 수 있다는 점이다. 대부분의 코드는 _config.yml의 내용을 참조한다. _config.yml에는 다음과 같은 내용이 들어가야 한다.
+jekyll이 편한 이유 중 하나는, 우리가 코드를 크게 수정하지 않아도 _config.yml 파일만 수정하면 사이트에 바로 적용할 수 있다는 점이다. _config.yml에는 다음과 같은 내용이 들어가야 한다.
 ```
 url                      : "https://[gitID].github.io"
 baseurl                  : ""
