@@ -18,8 +18,6 @@ twitter_username:
 facebook_username: 
 github_username:  ByoungJoonIm
 email: bj.max.lim@gmail.com
-weibo_username: 
-zhihu_username: 
 linkedIn_username: 
 dribbble_username:
 
@@ -28,8 +26,7 @@ description_footer:
 # comments
 # two ways to comment, only choose one, and use your own short name
 # short_name
-# duoshuo_shortname:
-# disqus_shortname: gaohaoyang
+disqus_shortname: ByoungJoonIm
 
 # statistic analysis
 google_analytics_id: UA-151945083-1
