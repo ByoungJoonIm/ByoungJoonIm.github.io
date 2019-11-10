@@ -58,5 +58,5 @@ commits에서 확인하는 경우, 다음과 같이 에러 메시지도 함께 �
 
 ## Reference 및 기능 추가를 위해 참조하면 좋은 사이트
 - [쉽고 빠르게 수준 급의 GitHub 블로그 만들기 - jekyll remote theme으로](https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html)
-
+- [홈페이지 검색 잘 되도록 만들기](http://dveamer.github.io/homepage/SubmitSitemap.html)
 
