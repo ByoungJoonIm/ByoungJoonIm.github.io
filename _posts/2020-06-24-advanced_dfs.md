@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "[알고리즘 분석] DFS(Depth First Search) 응용"
+title:  "[알고리즘 분석] N과 M 예제로 알아보는 DFS(Depth First Search) 응용"
 date:   2020-06-24 15:54:00
 categories: Algorithm
 tags: algorithm java concept analysis
 ---
 
-## 개요
+### 개요
 - RxC의 2차원에서 길을 찾거나, 경우의 수를 탐색하는 경우에 DFS를 유용하게 사용할 수 있다. 특히 경우의 수를 탐색하는 경우에 많이 사용되는데, 이때 어떻게 재귀를 제어하는지 살펴보자. 
 - DFS의 depth를 제어하는 방법을 '백트래킹' 이라고 부른다.
 - [백준 N과 M 시리즈](https://www.acmicpc.net/workbook/view/2052)를 풀어보며 어떻게 접근하는지 알아본다.
 
-## 어떨때 사용하면 좋을까?
+### 어떨때 사용하면 좋을까?
 - 반복문이 n번 중첩될 때 사용하면 유용하다.
 
-### N과 M시리즈 1번(15649번)
-## 생각 포인트
+## N과 M시리즈 1(15649번)
+### 생각 포인트
 - '중복 없이'라는 키워드를 본다면, 다음과 같은 키워드를 떠올려야 한다.
   - HashSet
   - visited (이미 방문한 곳은 다시 방문하지 않는 것의 의미에서)
@@ -30,7 +30,7 @@ tags: algorithm java concept analysis
   - 예제를 보면 `1 2`와 `2 1`은 다른 결과를 보이는 것을 볼 수 있다.
   - 따라서 이 문제는 순열을 물어보는 문제이다.
   
-## 코드
+### 코드
 ```java
 package forRank;
 
@@ -153,3 +153,6 @@ false true true  -> 3, 2를 선택
 ```
 
 - 즉, N개중 M개를 선택하는 경우에 visited는 유용하게 사용될 수 있다.
+
+## N과 M시리즈 2(15650번)
+- 추가중
