@@ -92,6 +92,7 @@ public class Q15649 {
 - N개중 M개를 사전 순서로 골라야 하므로, M개의 중첩 for문이 필요하다. dfs라는 함수로 중첩 for문을 구현하였다. 
 - M번의 for문 중첩이 일어난 뒤에는 비로소 M개의 숫자를 모두 고를 수 있으므로, 출력한다.
 - visited를 true/false로 제어하는 것은 어떤 의미일까? 예를 들어 N은 3이고, M은 2일때 visited가 어떻게 변화하는지 관찰해 보자.
+
 ```java
 package test;
 
@@ -149,4 +150,5 @@ false true true  -> 2, 3을 선택
 true false true  -> 3, 1을 선택
 false true true  -> 3, 2를 선택
 ```
+
 - 즉, N개중 M개를 선택하는 경우에 visited는 유용하게 사용될 수 있다.
